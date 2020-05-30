@@ -1,0 +1,21 @@
+.leftColumn {
+  width: 15%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.rightColumn {
+  width: 80%;
+  padding: 10px;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      list-style: none;
+    }
+  }
+}

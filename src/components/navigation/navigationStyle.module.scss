@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  width: 80%;
+  font-size: 1.4em;
+  margin: auto;
+
+  ul {
+    display: flex;
+
+    li {
+      list-style: none;
+      margin: 0px 10px;
+    }
+  }
+}
+.logo {
+  margin-right: auto;
+  background: red;
+}
