@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+
+  input {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  button {
+    margin: 10px;
+    width: 130px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.name {
+  display: flex;
+  width: 100%;
+
+  input {
+    width: 50%;
+  }
+}
+.location {
+  display: flex;
+  width: 100%;
+
+  select {
+    margin: 10px;
+    width: 50%;
+  }
+  input {
+    width: 50%;
+  }
+}

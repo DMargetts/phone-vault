@@ -1,0 +1,20 @@
+.item {
+  display: flex;
+  width: 100%;
+
+  align-items: center;
+  padding: 10px;
+
+  img {
+    width: 60px;
+    height: auto;
+  }
+  p {
+    padding: 10px;
+    width: 70%;
+  }
+  h3 {
+    width: 50%;
+    text-align: right;
+  }
+}

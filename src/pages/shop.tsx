@@ -12,6 +12,7 @@ interface phones {
   alt: string;
   id: number;
   brand: string;
+  price: number;
 }
 
 const Shop = () => {
@@ -121,7 +122,7 @@ const Shop = () => {
             {phonesArr.map((phone) => {
               return (
                 <li key={phone.id}>
-                  <Card image={phone.src} alt={phone.alt} />
+                  <Card image={phone.src} alt={phone.alt} price={phone.price} />
                 </li>
               );
             })}
